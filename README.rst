@@ -7,10 +7,12 @@
 … 
 | In this setup, we have used a system switch to internally switch the connections and achieve the eight configurations. The user just needs to execute the LabView code once, and it switches internally and generates all 8 configurations and takes the corresponding voltage readings. Additionally, this can be done for different sets of current values.
 
-Switching mechanism:
-|  The Hall effect card inside the system switch contains a matrix grid, which looks like:
+| Switching mechanism:
+| The Hall effect card inside the system switch contains a matrix grid, which looks like:
+
 .. image:: docs/mat.JPG
-    :width: 100
+    :width: 400
+    
 | By closing appropriate cross-points, one can generate the various configurations. Primitively, one can do this manually on the switch, this code automates the process.
 
 | For the automation, we connect the devices via GPIB and type-B cables to the system and install their drivers. The details are given in the manual.
