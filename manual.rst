@@ -1,4 +1,11 @@
-| Device details: 
+================
+Instruction Manual
+================
+
+----------
+Device details: 
+----------
+
 | We have used the following devices.
 #. 3706A SYSTEM SWITCH/MULTIMETER
 #. 3765 HALL EFFECT CARD
@@ -7,6 +14,9 @@
 
 | One can also prefrably use a picoammeter along with these, with appropriate modifications to the code ( user has to do that XD ). 
 
+----------
+Working:
+----------
 
 | The user provides a range of current values. For a specified value of current, 8 iterations of the following algorithm take place to compute V1 through V8.
 | In a single iteration ( for Vi )  - 
@@ -16,7 +26,19 @@
 #. The voltmeter takes multiple readings and stores them in a buffer. Mean is calculated and stored as Vi.
 #. The current supply is turned off.
 
-| Main Features:
+
+----------
+Basic Settings:
+----------
+These have to be done manually by the user.
+| For DC/AC current source -
+* If using GPIB cable,  go to the COMM>> turn on the GPIB communication. If using the RS323 , go to the COMM>> turn on the RS323 mode.
+* Go to Triax>> and make inner shield as Guard. 
+
+----------
+Main Features:
+----------
+
 * The front panel of Labview is divided into three sections- current source, voltmeter ( nanovoltmeter/ SMU), system switch. 
 * The user has to first select the VISA resources for all the above mentioned instruments. 
 * User has to specify the start, end, and step size in the first panel to generate a range of current values.
@@ -29,17 +51,18 @@
 
 * Some other features are present on the panel- setting voltage compliance ( limit ), range selection, error displays, voltage limit indicator, etc. 
 
-| Instructions:
-| For DC/AC current source -
-* If using GPIB cable,  go to the COMM>> turn on the GPIB communication. If using the RS323 , go to the COMM>> turn on the RS323 mode.
-* Go to Triax>> and make inner shield as Guard. 
+----------
+Troubleshooting: 
+----------
 
-| Troubleshooting: 
 * In case the sircuit is open, the voltage compl
 * If you are using GPIB connections, make sure to use the proper driver.
 * If you are connecting 2450 sourcemeter using GPIB cable, you may encounter errors with its driver.
 * If you have installed the drivers and still your resources are not detected, you may try restarting the system.
 
-| Warnings:
+----------
+Warnings:
+----------
+
 * Do not exceed the voltage compliance mentioned in the hall effect card specifications.
 * Do not exceed the current value as recommended by the operator.
