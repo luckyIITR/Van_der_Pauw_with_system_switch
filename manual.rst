@@ -67,6 +67,40 @@ Warnings:
 * Do not exceed the voltage compliance mentioned in the hall effect card specifications.
 * Do not exceed the current value as recommended by the operator.
 
+----------
+Working in the guarded mode:
+----------
+| To work in the guarded mode, two things have to be done.
+#. The two jumper wires in the Hall effect card have to be repositioned as per the instructions in their manual.
+#. The guarded mode has to be selected in the third panel in LabView.
+
+----------
+Software Requirements:
+----------
+#. NI LabView 
+#. GPIB driver provided by NI instruments
+
+----------
+Requirements for Connections:
+----------
+* 4 Triax to banana cables ( if you are using a puck station ) , OR simply , 4 Triax to - cables which can be connected to the sample ( for example, we have 4 Traix to crocodile cables, and 4 banana to banana cables which were connected together to obtain the above )
+* Coax to banana cable ( we have made this by cutting a Coax to Coax cable )
+* One traix to triax cable.
+* Two banana cables.
+* The cables we have used for making connections to the system;
+
+    #. 2 GPIB cables
+    #. 2 type-B cables
+
+----------
+Making the connections:
+----------
+
+The user can make the connections like so. The coax to banana + crocodile isn't a necessity. The connections can be learnt more about properly by going through the manuals of the devices. 
+
+.. image:: docs/fig.png
+    :scale: 50
+
 
 .. image:: docs/Front.jpg
     :width: 500
