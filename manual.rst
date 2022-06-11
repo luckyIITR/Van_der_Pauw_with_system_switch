@@ -1,6 +1,6 @@
 The user provides a range of current values. For a specified value of current, 8 iterations of the following algorithm take place to compute V1 through V8.
-In a single iteration ( for Vi )  - 
-The current source is configured. Current value is set.
+| In a single iteration ( for Vi )  - 
+#. The current source is configured. Current value is set.
 The switch is configured for Vi mode.
 The current supply is turned on.
 The voltmeter takes multiple readings and stores them in a buffer. Mean is calculated is stored as Vi.
