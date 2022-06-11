@@ -1,4 +1,4 @@
- | VanDerPaw_with_system_switch
+| VanDerPaw_with_system_switch
 .. image:: docs/logo1.png
     :scale: 50
 | Van Der Paw method
