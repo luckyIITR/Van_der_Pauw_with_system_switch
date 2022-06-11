@@ -4,8 +4,8 @@
     :scale: 50
 
 .. image:: docs/Front.jpg
-    :scale: 50
+    :scale: 30
 
 
 .. image:: docs/Back.jpg
-    :scale: 50
+    :scale: 30
