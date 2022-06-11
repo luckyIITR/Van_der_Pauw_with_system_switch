@@ -1,18 +1,28 @@
-The user provides a range of current values. For a specified value of current, 8 iterations of the following algorithm take place to compute V1 through V8.
+| Device details: 
+| We have used the following devices.
+#. 3706A SYSTEM SWITCH/MULTIMETER
+#. 3765 HALL EFFECT CARD
+#. 6221 DC/AC CURRENT SOURCE
+#. 2450 SOURCEMETER 2182A NANOVOLTMETER
+
+| One can also prefrably use a picoammeter along with these, with appropriate modifications to the code ( user has to do that XD ). 
+
+
+| The user provides a range of current values. For a specified value of current, 8 iterations of the following algorithm take place to compute V1 through V8.
 | In a single iteration ( for Vi )  - 
 #. The current source is configured. Current value is set.
-The switch is configured for Vi mode.
-The current supply is turned on.
-The voltmeter takes multiple readings and stores them in a buffer. Mean is calculated is stored as Vi.
-The current supply is turned off.
+#. The switch is configured for Vi mode.
+#. The current supply is turned on.
+#. The voltmeter takes multiple readings and stores them in a buffer. Mean is calculated is stored as Vi.
+#. The current supply is turned off.
 
 
-
-We have used the following devices:
-3706A SYSTEM SWITCH/MULTIMETER
-3765 HALL EFFECT CARD
-6221 DC/AC CURRENT SOURCE
-2450 SOURCEMETER/ 2182A NANOVOLTMETER
+| Device details: 
+| We have used the following devices:
+#. 3706A SYSTEM SWITCH/MULTIMETER
+#. 3765 HALL EFFECT CARD
+#. 6221 DC/AC CURRENT SOURCE
+#. 2450 SOURCEMETER/ 2182A NANOVOLTMETER
 
 
 
