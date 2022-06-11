@@ -66,3 +66,11 @@ Warnings:
 
 * Do not exceed the voltage compliance mentioned in the hall effect card specifications.
 * Do not exceed the current value as recommended by the operator.
+
+
+.. image:: docs/Front.jpg
+    :width: 500
+
+
+.. image:: docs/Back.jpg
+    :width: 500
