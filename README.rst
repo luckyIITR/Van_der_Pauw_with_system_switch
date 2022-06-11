@@ -1,5 +1,9 @@
 #VanDerPaw_with_system_switch
 
+.. image:: docs/logo1.png
+    :scale: 50
+    
+    
 .. image:: docs/fig.png
     :scale: 50
 
