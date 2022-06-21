@@ -1,13 +1,23 @@
- | VanDerPaw_with_system_switch
+================
+VanDerPaw_with_system_switch
+================
+
 .. image:: docs/logo1.png
     :scale: 50
-| Van Der Paw method
+    
+================
+Van Der Paw method
+================
+
 | The Van der Paw method is a method for measuring the specific resistivity and Hall effect of flat samples of arbitrary shape, in which contacts are sufficiently small and placed on the circumference of the sample.
 | If one is provided with just an SMU, one can achieve all the eight configurations ( V1 - V8 ) by switching the probes manually.
 … 
 | In this setup, we have used a system switch to internally switch the connections and achieve the eight configurations. The user just needs to execute the LabView code once, and it switches internally and generates all 8 configurations and takes the corresponding voltage readings. Additionally, this can be done for different sets of current values.
 
-| Switching mechanism:
+================
+Switching mechanism
+================
+
 | The Hall effect card inside the system switch contains a matrix grid, which looks like:
 
 .. image:: docs/mat.JPG
